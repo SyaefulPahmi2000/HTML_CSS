@@ -1,0 +1,28 @@
+body{
+    /* background-color: rgb(23, 168, 235); */
+    background-image: url(../image/html.png);
+    background-position: top center;
+    background-color: rgba(0, 0, 255, 0.5);
+
+}
+h2{
+    color: rgb(203, 208, 214);
+    font-family: Island Namina;
+    line-height: 200px;
+    text-align: center;   
+}
+h1{
+    color: rgb(116, 131, 199);
+    font-family: Island Namina;
+    line-height: 50px;
+}
+a{
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 255, 170);
+}
+a:hover{
+    font-family: arial;
+    color: rgb(255, 166, 0);
+}

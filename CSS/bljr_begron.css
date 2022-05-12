@@ -1,0 +1,16 @@
+/* belajar background  properti pada background ada empat */
+/* 1. background-color = mengatur warna pada background */
+/* 2. background-image = mengatur gambar yang akan di gunakan pada background */
+/* 3. background-position = mengatur posisi gambar pada background */
+/* 4. background-repeat = mengatur jenis pengulangan gambar pada background. ada beberapa value pada repeat yaitu
+      repeat-x = hanya mengulang kekanan dan kekiri, repeat-y = hanya mengulang keatas dan kebabawah, 
+      no-repeat = tidak mengulang */
+
+body{
+    background-image: url(../image/gunung.jpg);
+    background-color: #00f2c2;
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+/* bisa juga menyingkat cara tulisnya cara penulisannya = background: color url() repeat position contoh 
+background:blue url(../image/gunung.jpg) no-repeat top center;   */

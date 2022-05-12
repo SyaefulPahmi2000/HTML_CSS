@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color: #aeaeae;
+    color:#333;
+}
+.header{
+    width: 80%;
+    margin: 0 auto;
+}
+.header:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header h1{
+    float: left;
+    padding: 20px 20px;
+}
+.header ul{
+    float: right;
+}
+.header ul li{
+    display: inline-block;
+}
+.header ul li a{
+    padding: 20px 3px;
+    display: inline-block;
+    text-decoration: none;
+    color: lightskyblue;
+    text-transform: uppercase;
+}
+.header ul li a:hover{
+    color: #fff;
+    background-color: salmon;
+}
+.hero {
+    height: 400px;
+    background-image: url(../image/html.png);
+    background-size: cover;
+    background-position: 0 -30px ;
+    border-bottom: 5px solid lightskyblue;
+    border-top: 5px solid salmon;
+    padding: 0 0px;
+}
+.conten{
+    padding: 20px;
+}
+
+.conten h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+.conten .penulis{
+    font-size: 12px;
+    margin-top: -20px;
+    word-spacing: 5px;
+}
+
+.conten a{
+    text-decoration: none;
+    color: salmon;
+}
+
+.conten p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.conten a:hover{
+    color: white;
+    background-color: lightskyblue;
+}
+
+.pooter{
+    background-color: #333;
+    padding: 10px;
+}
+
+.pooter .copy{
+    color: #aeaeae;
+    font-size: 12px;
+    text-align: center;
+}

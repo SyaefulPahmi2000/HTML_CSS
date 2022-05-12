@@ -1,0 +1,46 @@
+/* CSS (cascading style sheet) adalah mekanisme sederhana yang mengatur gaya/style
+contoh warna, ukuran, posisi, dll) pada halaman WEB */
+/* anatomy atau struktur dari CSS  yaitu selector {property: value;}  contoh h1 {color:blue;} */
+/* color = untuk merubah warnama text
+   font-family = untuk mengatur bentuk font/tulisan yang akan di gunakan
+   font-size = untuk mengatur ukuran text
+   font-weight = untuk mengatur ketebalan font
+   font-variant = untuk mengubah font menjadi small caps
+   font-style = untuk mengubah font menjadi bercetak miring
+   font-heigth = untuk mengatur spasi antar baris 
+   */
+
+h1{
+    font-size: 80px;
+}
+/* color = untuk memberikan warna pada text. untuk membuat warna ada 3 cara, nama warna, hexsadesimal, rgb*/
+h2{
+    color: red;
+    font-family: arial;
+    font-size: 50px; 
+    font-variant: small-caps;
+    font-style: italic;
+}
+/* di dalam property kita bisa menaruhkan nama font lebih dari satu  contohnya seperti di bawah ini  */
+/* text-align = untuk mengatur format faragraf/teks. (left= rata kiri, right= rata kanan, center= rata tengah, 
+justipy= rata kiri kanan 
+   text-indent = untuk memberi identasi faragraf/teks
+   text-decoration = untuk mengatur decorasi pada teks. biasanya juga untuk menghilangkan garis bawah pada link
+   text-transform = untuk mengubah jenis huruf menjadi huruf besar di awalnya(capitalize), kecil(lowercase) / kapital(uppercase)
+   letter-spacing = untuk mengatur spasi antar huruf
+   word-spacing = untuk mengatur spasi antar kata */
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: justify;
+    text-indent: 100px;
+    text-transform: capitalize;
+    word-spacing: 10px ;
+}
+/* untuk menghilangkan garis bawah pada link */
+a{
+    text-decoration: none;
+}
+/*  */
+

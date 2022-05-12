@@ -1,0 +1,46 @@
+/* belajar pseudo class */
+/* pseudo class terbagi menjadi beberapa tipe yaitu */
+/* 1. pseude class yang berhubungan dengan link 
+    :link  === style default pada sebuah link (a yang memiliki href) 
+    :hover === style ketika kursor mouse berada di atas sebuah link / elemen 
+    :active === style ketika sebuah link di klik (kaadaan aktif) 
+    :visited === sytle ketika sebuah link sudah pernah di kunjungi sebelumnya (menggunakan browser yang sama )*/
+.hello:link{
+    color: orange;
+}
+.hello:hover{
+    color: orangered;
+    font-family: arial;
+    font-size: 20px ;
+}
+.hello:active{
+    font-style: italic;
+}
+.hello:visited{
+    color: red;
+}
+
+/* 2. pseudo class yang berhubungan dengan posisi elemen (1)
+    :first-child === memilih elemen pertama dari sebuah parent (elemen pembungkusnya)
+    :last-child === memilih elemen terakhir dari sebuah parent (elemen pembungkus)
+    :nth-child(n) === memilih elemen ke-n dari sebuah parent (elemen pembungkusnya).
+    n bisa urutan (1), (2)... atau pola (2n), (3n+2), (4n-1), atau ganjil dan genap (even) dan (odd) */
+
+li:nth-child(5) a{
+        color: rgb(8, 253, 0);
+        font-family: arial;
+}
+li:nth-child(5) a:hover{
+        font-family: cursive;
+}
+/* 3.pseudo class yang berhubungan dengan posisi elemen (2) 
+    :first-of-type === memilih elemen pertama dari sebuah jenis/tipe tag
+    :last-of-type === memilih elemen terakhir dari sebah jenis/tipe tag 
+    berlaku untuk tag paragrap (p) */
+p:first-of-type{
+    color: coral;
+}
+p{color:inherit;}
+/* inherit adalah untuk mewarisakn contohnya kalau kita mau mewarnai seluruh body dari html terus ada yang gak 
+berubah maka bisa menggunakan inherit cara menulis kode na ( a { color:inherit:} */
+

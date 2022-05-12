@@ -1,0 +1,28 @@
+/* cara menggunakan selector  */
+/* didalam selector kita bisa menggunakan elemen HTML, id, class */
+/* kalau kita ingin merubah dua tag sekaligus kita bisa menggabungkannya dgn menggunkan koma (,) contoh */
+
+h1, h2 {
+    color: green;
+    font-family: cursive;
+}
+/* misalkan kita mau mengubah tag ling didalam tag list dengan menggunakan sepasi contoh */
+
+ul li a{
+    color: greenyellow;
+}
+ol li a{
+    color: rgb(255, 72, 0);
+}
+
+/* yang menggunakan id dan class */
+/* kalau id menggunkan pager(#) kalau class menggunakan titik (.) contoh */
+#p1{
+    color: lawngreen;
+}
+.p2{
+    color: orangered;
+}
+/* keterangan 
+   sebaik nya jangan menggunkan id di CSS karena terlalu berat sebaik nya menggunkan elemen HTML 
+   kalau gak bisa gunakan class */

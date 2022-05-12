@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cara membuat form</title>
+</head>
+<!-- cara mebuat form -->
+<!-- didalam form terdapat beberapa elemen yaitu == input, textarea, select, botton, dan label -->
+<!-- 1. Input adalah dimana user bisa mengimputkan sesuatu -->
+<!-- di dalam tag input terdapat atribut type untuk menentukan mau membuat input yang mana 
+ada beberapa nilai type yang bisa kita gunakan =====  text, password, radio, checkbox, textarea, button-->
+
+        <form>
+<!-- text === bisa kita buat username atau nama lengkap -->
+        <label for="username">username</label>
+        <input type="text" id="username">
+        <br>
+<!-- password === bisa kita membuat password -->
+        <label for="password">Password</label>
+        <input type="password" id="password">
+        <br>
+<!-- radio === bisa kita gunakan untuk membuat memilih jenis kelamin -->
+        <label for="">jeniskelamin</label><br>
+        <input type="radio" id="peria" name="jeniskelamin"><label for="peria">peria</label>
+        <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label>
+        <br>
+<!-- checkbox === bisa kita gunakan untuk membuat pilihan lebih dari satu -->
+        <label for="">Hoby</label><br>
+        <input type="checkbox" id="renang"> <label for="renang">renang</label>
+        <input type="checkbox" id="ngoding"> <label for="ngoding">ngoding</label>
+        <input type="checkbox" id="membaca"> <label for="membaca">membaca</label>
+        <input type="checkbox" id="ngedit"> <label for="ngedit">ngedit</label>
+        <br>
+
+<!-- 2. textarea === textarea ini kita bisa menulis lebih banyak -->
+        <label for="pesan">Pesan</label><br>
+        <textarea name="pesan" id="pesan" cols="30" rows="10"></textarea>
+        <br>
+<!-- select === bisa kita buat kombo box-->
+        <label for="namakota">nama kota</label> <br>
+        <select id="namakota">
+                <option>jogja</option>
+                <option>bandung</option>
+                <option>jakarta</option>
+        </select>
+        <br>
+
+<!-- button === untuk membuat kalau kita mau (submit) untuk mengirim data, (reset) untuk meriset data, dan (button) -->
+        <button type="submit"> kirim!</button>
+
+        </form>
+
+<body>
+
+</body>
+</html>

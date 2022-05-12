@@ -1,0 +1,19 @@
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color: #aeaeae;
+    color:#333;
+}
+.contener{
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+.judul{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.conten input{
+    width: 100px;
+}
